@@ -1,0 +1,20 @@
+{
+  "name": "modyo-desafio",
+  "version": "1.0.0",
+  "description": "landing-modyo-desafio",
+  "main": "script-landing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css3",
+    "bootstrap"
+  ],
+  "author": "Nohemi Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
