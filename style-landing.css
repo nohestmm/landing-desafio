@@ -289,7 +289,7 @@ a.card-link {
 }
 
 .w-100 {
-    width: 10% !important;
+    width: auto!important;    
 }
 .carousel-testimonials {
     display: flex;
@@ -311,3 +311,6 @@ a.card-link, .fa-check:before{
     justify-content: center;
 }
 
+.testimonials-carousel{
+    width: 100%;
+}
