@@ -215,7 +215,7 @@ h5.card-title {
     font-size: 1rem;
     padding-top: 6%;
 }
-}
+
 
 a.card-link {
     color: #00d3b5;
@@ -313,4 +313,16 @@ a.card-link, .fa-check:before{
 
 .testimonials-carousel{
     width: 100%;
+}
+
+@media (min-width: 576px){
+.card-deck {
+ 
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+}
+
+.paragraph{
+    text-align: center;
 }

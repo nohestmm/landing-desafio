@@ -18,7 +18,7 @@ fetch(urlUsers)
                         `<div class="carousel-item active">
                             <div class="carousel-testimonials">
                                 <img src="./images/amalia-image.jpeg" class="d-block w-100" alt="...">
-                                <p>${testimonialsUsers[0].posts[Math.floor(Math.random() * 10)]}
+                                <p class="paragraph">${testimonialsUsers[0].posts[Math.floor(Math.random() * 10)]}
                                 </p>
                                 <p>${testimonialsUsers[0].name}</p>
                             </div>
@@ -28,7 +28,7 @@ fetch(urlUsers)
                         <div class="carousel-item">
                         <div class="carousel-testimonials">
                             <img src="./images/amalia-image.jpeg" class="d-block w-100" alt="...">
-                            <p>${el.posts[Math.floor(Math.random() * 10)]}
+                            <p class="paragraph">${el.posts[Math.floor(Math.random() * 10)]}
                             </p>
                             <p>${el.name}</p>
                         </div>
@@ -43,7 +43,7 @@ const objectWithNameAndPosts = (users, posts) => {
     let arrayWithOnlyPosts = posts.reduce((post, element) => {
         let id = element.userId
         let newPosts = posts.filter(el => el.userId === id)
-            .map(el => el.title)
+            .map(el => el.body)
        
         post[id] = newPosts
         console.log(post)
